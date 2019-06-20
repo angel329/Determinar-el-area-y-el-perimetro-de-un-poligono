@@ -24,7 +24,7 @@ sum2=y[n-1]*x[1]
 print (sum1,sum2)
       
 #Algoritmo para la determinación del área
-sub_area = ((x[1]*y[n-1])-(x[n-1]*y[0]))*(-1)
+sub_area = ((x[1]*y[n-1])-(x[n-1]*y[0]))*(-1)   #Esto por que? les habia comentado que ya lo tenian calculado con el for anterior y en sum1 y sum2. CORREGIR
 area = sub_area/2
 print (x, y, "\narea = %.2f" % area)
 #Ingresar coordanadas
